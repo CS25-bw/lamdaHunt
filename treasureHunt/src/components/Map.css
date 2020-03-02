@@ -1,0 +1,33 @@
+.grid-container {
+    /* width: 100%; */
+    font-size: .5rem;
+    display: grid;
+    grid-template-columns: repeat(79, 1fr);
+    /* border: 1px solid red; */
+    transform: translateX(50%) rotate(180deg);
+}
+
+.space {
+    margin: .5em;
+    height: 10px;
+    width: 10px;
+    background: lightgrey;
+    border-radius: 50px;
+    transform: translateX(50%) rotate(180deg);
+}
+
+.room {
+    background: green;
+}
+
+.current {
+    background: blue;
+}
+
+.danger {
+    background: red;
+}
+
+.well {
+    background: purple;
+}
