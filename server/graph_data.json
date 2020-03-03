@@ -1,4 +1,96 @@
 {
+  "0": {
+    "room_id": 0,
+    "title": "A brightly lit room",
+    "description": "You are standing in the center of a brightly lit room. You notice a shop to the west and exits to the north, south and east.",
+    "coordinates": "(60,60)",
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "players": [
+      "User 20701",
+      "User 20696",
+      "User 20729",
+      "User 20700",
+      "User 20652",
+      "User 20718",
+      "User 20675",
+      "User 20680",
+      "User 20719",
+      "User 20673",
+      "User 20645",
+      "User 20732",
+      "User 20727",
+      "User 20725",
+      "User 20723",
+      "User 20722",
+      "User 20717",
+      "User 20711",
+      "User 20710",
+      "User 20708",
+      "User 20707",
+      "User 20706",
+      "User 20705",
+      "User 20704",
+      "User 20703",
+      "User 20702",
+      "User 20697",
+      "User 20694",
+      "User 20692",
+      "User 20691",
+      "User 20688",
+      "User 20687",
+      "User 20686",
+      "User 20682",
+      "User 20672",
+      "User 20669",
+      "User 20666",
+      "User 20665",
+      "User 20664",
+      "User 20663",
+      "User 20662",
+      "User 20657",
+      "User 20655",
+      "User 20654",
+      "User 20650",
+      "User 20646",
+      "User 20642"
+    ],
+    "items": [],
+    "exits": [
+      "n",
+      "s",
+      "e",
+      "w"
+    ],
+    "cooldown": 15,
+    "errors": [],
+    "messages": [
+      "You have walked north."
+    ]
+  },
+  "2": {
+    "room_id": 2,
+    "title": "A misty room",
+    "description": "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+    "coordinates": "(60,59)",
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "players": [
+      "User 20671",
+      "User 20674"
+    ],
+    "items": [],
+    "exits": [
+      "n",
+      "s",
+      "e"
+    ],
+    "cooldown": 15,
+    "errors": [],
+    "messages": [
+      "You have walked north."
+    ]
+  },
   "6": {
     "room_id": 6,
     "title": "A misty room",
@@ -57,6 +149,31 @@
       "You have walked east."
     ]
   },
+  "10": {
+    "room_id": 10,
+    "title": "A misty room",
+    "description": "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+    "coordinates": "(60,61)",
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "players": [
+      "User 20721",
+      "User 20720",
+      "User 20679",
+      "User 20676"
+    ],
+    "items": [],
+    "exits": [
+      "n",
+      "s",
+      "w"
+    ],
+    "cooldown": 15,
+    "errors": [],
+    "messages": [
+      "You have walked north."
+    ]
+  },
   "16": {
     "room_id": 16,
     "title": "A misty room",
@@ -77,6 +194,50 @@
       "You have walked south."
     ]
   },
+  "19": {
+    "room_id": 19,
+    "title": "A misty room",
+    "description": "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+    "coordinates": "(60,62)",
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "players": [],
+    "items": [],
+    "exits": [
+      "n",
+      "s",
+      "w"
+    ],
+    "cooldown": 15,
+    "errors": [],
+    "messages": [
+      "You have walked north."
+    ]
+  },
+  "20": {
+    "room_id": 20,
+    "title": "A misty room",
+    "description": "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+    "coordinates": "(60,63)",
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "players": [
+      "User 20643",
+      "User 20715"
+    ],
+    "items": [],
+    "exits": [
+      "n",
+      "s",
+      "e",
+      "w"
+    ],
+    "cooldown": 15,
+    "errors": [],
+    "messages": [
+      "You have walked north."
+    ]
+  },
   "58": {
     "room_id": 58,
     "title": "A misty room",
@@ -94,6 +255,28 @@
     "errors": [],
     "messages": [
       "You have walked east."
+    ]
+  },
+  "63": {
+    "room_id": 63,
+    "title": "A misty room",
+    "description": "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+    "coordinates": "(60,64)",
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "players": [
+      "User 20726"
+    ],
+    "items": [],
+    "exits": [
+      "n",
+      "s",
+      "w"
+    ],
+    "cooldown": 15,
+    "errors": [],
+    "messages": [
+      "You have walked north."
     ]
   },
   "65": {
@@ -116,6 +299,27 @@
       "You have walked south."
     ]
   },
+  "72": {
+    "room_id": 72,
+    "title": "A misty room",
+    "description": "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+    "coordinates": "(60,65)",
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "players": [
+      "User 20724"
+    ],
+    "items": [],
+    "exits": [
+      "s",
+      "w"
+    ],
+    "cooldown": 15,
+    "errors": [],
+    "messages": [
+      "You have walked north."
+    ]
+  },
   "74": {
     "room_id": 74,
     "title": "A misty room",
@@ -134,6 +338,29 @@
     "errors": [],
     "messages": [
       "You have walked east."
+    ]
+  },
+  "76": {
+    "room_id": 76,
+    "title": "A misty room",
+    "description": "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
+    "coordinates": "(59,65)",
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "players": [
+      "User 20651",
+      "User 20648"
+    ],
+    "items": [],
+    "exits": [
+      "n",
+      "e",
+      "w"
+    ],
+    "cooldown": 15,
+    "errors": [],
+    "messages": [
+      "You have walked west."
     ]
   },
   "87": {

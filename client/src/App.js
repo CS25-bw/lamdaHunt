@@ -5,6 +5,7 @@ import Landing from "./components/Landing";
 import NavBar from "./components/NavBar";
 import About from "./components/About";
 import Home from "./components/Home";
+import UpdateCommands from './components/Commands'
 import { CssBaseline } from "@material-ui/core";
 import "./App.css";
 import Map from "./components/Map";
@@ -17,7 +18,9 @@ const App = () => {
       <Route exact path="/" component={Landing} />
       <Route path="/home" component={Home} />
       <Route path="/about" component={About} />
+
       <Map />
+      <UpdateCommands/>
     </div>
   );
 };
