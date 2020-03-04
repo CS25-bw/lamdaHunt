@@ -77,10 +77,11 @@ export const getProof = () => {
         .then(res => console.log(res))
 }
 
-const body = {"proof":15132323}
+
 export const mine = new_proof => {
+    const body = {"proof": 15132323,"player":"mike_harley"}
     axios
-    .post('https://lambda-treasure-hunt.herokuapp.com/api/bc/mine/', body, {headers: {Authorization: `Token ${REACT_APP_KEY}`}})
+    .post('https://lambda-treasure-hunt.herokuapp.com/api/bc/mine/',body, {headers: {Authorization: `Token ${REACT_APP_KEY}`}})
     .then(res => console.log(res))
     .catch(err => console.log(err))
 }

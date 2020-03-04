@@ -312,7 +312,6 @@ Does hash(last_proof, proof) contain N leading zeroes, where N is the current di
 `
 curl -X GET -H 'Authorization: Token 7a375b52bdc410eebbc878ed3e58b2e94a8cb607' https://lambda-treasure-hunt.herokuapp.com/api/bc/last_proof/
 `
-
 ```
 {
   "proof": 123456,

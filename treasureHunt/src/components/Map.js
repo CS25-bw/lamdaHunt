@@ -30,14 +30,12 @@ const Map = ({room}) => {
         // Check if graphMap is there, if yes set to variable
         if (localStorage.getItem('graphMap')) {
             graphMap = JSON.parse(localStorage.getItem('graphMap'))
-     
+            // console.log(graphMap)
             keys = Object.keys(graphMap)
-
             console.log("found rooms:", keys.length)
-          
         }
 
-        keys.map((key) => {
+        keys.map(key => {
             x = graphMap[key].self.coordinates.slice(1,3)
             y = graphMap[key].self.coordinates.slice(4,6)
             const mapID = graphMap[key].self.room_id
@@ -51,13 +49,13 @@ const Map = ({room}) => {
         return twoDMap
     }
 
-    let count = room.cooldown
-    const timer = interval => {
-        setInterval(() => console.log(count), interval)
-        count ++
-    }
+    // let count = room.cooldown
+    // const timer = interval => {
+    //     setInterval(() => console.log(count), interval)
+    //     count--
+    // }
 
-     console.log(JSON.parse(localStorage.getItem('graphMap')))
+// console.log(JSON.parse(localStorage.getItem('graphMap')))
 
 
     return (
@@ -71,6 +69,5 @@ const Map = ({room}) => {
         </div>
     )
 }
-
 
 export default Map

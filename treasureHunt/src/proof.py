@@ -56,7 +56,7 @@ def valid_proof(last_proof, proof):
 
     return guess_hash[:6] == '000000'
 
-last_proof = 10039127
+last_proof = 1125760
 proof_of_work(last_proof)
 
 # test = [1,2,3,4,5,6,7]

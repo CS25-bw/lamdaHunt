@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 
-import { fetchMove, fetchTake, fetchDrop, fetchPray, fetchSell, fetchExamine, fetchChangeName } from '../actions'
+import { fetchMove, fetchTake, fetchDrop, fetchPray, fetchSell, fetchMine,fetchExamine, fetchChangeName } from '../actions'
 import { useDispatch } from "react-redux"
 import { chart } from '../chart'
 
@@ -19,7 +19,7 @@ const Controls = ({room, status}) => {
 
     const handleMove = (dir) => {
         if (localStorage.getItem('graphMap')) {
-            const graphMap = localStorage.getItem('graphMap')
+            const graphMap = JSON.parse(localStorage.getItem('graphMap'))
             console.log("????", graphMap[room.room_id], room.room_id, graphMap)
             if (graphMap[room.room_id][dir] !== undefined) {
                 const nextRoom = graphMap[room.room_id][dir]
@@ -43,7 +43,7 @@ const Controls = ({room, status}) => {
     const autoMove = () => {
         const graphMap = JSON.parse(localStorage.getItem('graphMap'))
         const rooms = []
-        const possible = ['n','e','s','w']
+        const possible = ['n','s','e','w']
         for (let dir in graphMap[room.room_id]) {
             if (possible.includes(dir)) {
                 rooms.push(dir)
@@ -89,9 +89,12 @@ const Controls = ({room, status}) => {
     const handleChangeName = name => {
         fetchChangeName(name)
     }
+    const handleMine = proof =>{
+        fetchMine(proof)
+    }
 
     useEffect(() => {
-         setPrevRoom(room)
+        // setPrevRoom(room)
         chart(prevRoom, room, dirToPrev)
     }, [prevRoom, room, dirToPrev])
 
@@ -100,19 +103,20 @@ const Controls = ({room, status}) => {
     return (
         <>
             <div className="control-container">
-                <button className="game-btn" onClick={() => handleMove('n')}>N</button>
-                <button className="game-btn" onClick={() => handleMove('e')}>E</button>
-                <button className="game-btn" onClick={() => handleMove('s')}>S</button>
-                <button className="game-btn" onClick={() => handleMove('w')}>W</button>
+                <button className="game-btn" onClick={() => handleMove("n")}>N</button>
+                <button className="game-btn" onClick={() => handleMove("e")}>E</button>
+                <button className="game-btn" onClick={() => handleMove("s")}>S</button>
+                <button className="game-btn" onClick={() => handleMove("w")}>W</button>
             </div>
             <div>
                 <button onClick={() => handleTake(room.items[0])}>Take Treasure</button>
                 <button onClick={() => handleDrop(status.inventory[0])}>Drop Treasure</button>
                 <button onClick={() => handlePray()}>Pray</button>
+                <button onClick={() => handleMine()}>Mine</button>
                 <button onClick={() => handleSell(status.inventory[0])}>Sell</button>
                 <button onClick={() => autoMove()}>Auto Move</button>
                 <button onClick={() => handleExamine(room.title)}>Examine</button>
-                <button onClick={() => handleChangeName("Mike")}>Change Name</button>
+                <button onClick={() => handleChangeName("Adam")}>Change Name</button>
 
             </div>
             <Map room={room}/>
