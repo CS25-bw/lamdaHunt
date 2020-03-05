@@ -1,7 +1,12 @@
-import axios from 'axios'
-import 'dotenv'
+require('dotenv').config('.env')
+const axios = require('axios')
+const {proof_of_work} = require('./Proof')
 
-const REACT_APP_KEY = "7a7e7d6292f5ae4f514fe8862d0ef690ebddc878"
+
+
+
+
+// const REACT_APP_KEY = "7a7e7d6292f5ae4f514fe8862d0ef690ebddc878"
 const REACT_APP_URL = "https://lambda-treasure-hunt.herokuapp.com/api/adv"
 
 
@@ -69,26 +74,65 @@ export const changeName = async name => {
     const { data } = await requestWithAuth().post("/change_name/", {"name":name, "confirm":'aye'})
     console.log("change_name ------>", data)
     return data
-}
+}   
 
 export const getProof = () => {
+    
     axios
-        .get('https://lambda-treasure-hunt.herokuapp.com/api/bc/last_proof/', {headers: {Authorization: `Token ${REACT_APP_KEY}`}})
-        .then(res => console.log(res))
+        .get('https://lambda-treasure-hunt.herokuapp.com/api/bc/last_proof/', {headers: {Authorization: `Token 7a7e7d6292f5ae4f514fe8862d0ef690ebddc878`}})
+ 
+        .then(res => {
+            console.log("Last_Proof ---------------------->",res.data.proof) 
+            localStorage.setItem('proof',res.data.proof)
+        })
+
+        
 }
 
 
-export const mine = new_proof => {
-    const body = {"proof": 15132323,"player":"mike_harley"}
+export const mine = () => {
+
+    let timer = 1 
+    console.log("START",timer++)
+    let last_proof =  localStorage.getItem('proof')
+     proof_of_work(last_proof)
+
+ 
+
+    const body = {"proof": proof_of_work,"player":"mike_harley"}
     axios
-    .post('https://lambda-treasure-hunt.herokuapp.com/api/bc/mine/',body, {headers: {Authorization: `Token ${REACT_APP_KEY}`}})
+    .post('https://lambda-treasure-hunt.herokuapp.com/api/bc/mine/',body, {headers: {Authorization: `Token 7a7e7d6292f5ae4f514fe8862d0ef690ebddc878`}
+            })
     .then(res => console.log(res))
     .catch(err => console.log(err))
+
 }
 
-const proof = 15132323
-mine(proof)
-// getProof()
 
+// blockstack.createNewBlock = function(nonce, last_proof, hash) {
+// 	const newBlock = {
+// 		index: this.chain.length + 1,
+// 		timestamp: Date.now(),
+// 		transactions: this.pendingTransactions,
+// 		nonce: nonce,
+// 		hash: hash,
+// 		previousBlockHash: last_proof
+// 	};
+
+// 	this.pendingTransactions = [];
+// 	this.chain.push(newBlock);
+
+// 	return newBlock;
+// };
+// blockstack.hashBlock = function(previousBlockHash, currentBlockData, nonce) {
+// 	const dataAsString = previousBlockHash + nonce.toString() + JSON.stringify(currentBlockData);
+// 	const hash = sha256(dataAsString);
+// 	return hash;
+// };
+
+
+
+
+	
 
 // {proof: 10039127, difficulty: 6, cooldown: 1, messages: Array(0), errors: Array(0)}

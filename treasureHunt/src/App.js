@@ -6,7 +6,7 @@ import Game from './components/Game'
 function App() {
   return (
     <div className="App">
-      <h1>Lambda Treasure Hunt</h1>
+      <h1>CS25 Presents Treasure Hunt</h1>
       <Game />
     </div>
   );
