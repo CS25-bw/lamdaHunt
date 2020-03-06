@@ -13,7 +13,7 @@ const initialState = {
     sell: {},
     examine: {},
     changeName: {},
-    proof:{},
+    proof: 0,
     hasMined:false
 }
 
@@ -241,8 +241,9 @@ export const gameReducer = (state = initialState, { type, payload }) => {
             return {
                 ...state,
                 inProgess:false,
+                proof:payload,
                 isServerError:false,
-                proof:payload
+             
                 
             }
             case fetchProof.rejected.toString():

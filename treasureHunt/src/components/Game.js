@@ -12,7 +12,7 @@ import Controls from './Controls'
 const Game = () => {
   const currentRoom = useSelector(state => state.gameReducer.currentRoom)
   const status = useSelector(state => state.gameReducer.status)
-  // const take = useSelector(state => state.gameReducer.take)
+   const take = useSelector(state => state.gameReducer.take)
   const dispatch = useDispatch()
 
   return (

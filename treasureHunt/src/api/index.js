@@ -1,4 +1,4 @@
-require('dotenv').config('.env')
+require('dotenv').config()
 const axios = require('axios')
 const {proof_of_work} = require('./Proof')
 
@@ -6,8 +6,8 @@ const {proof_of_work} = require('./Proof')
 
 
 
-// const REACT_APP_KEY = "7a7e7d6292f5ae4f514fe8862d0ef690ebddc878"
-const REACT_APP_URL = "https://lambda-treasure-hunt.herokuapp.com/api/adv"
+ const REACT_APP_KEY = process.env.REACT_APP_KEY
+const REACT_APP_URL = process.env.REACT_APP_URL
 
 
 const axiosConfig = {
@@ -17,7 +17,7 @@ const axiosConfig = {
 const requestWithAuth = () => {
     const instance = axios.create({
         ...axiosConfig,
-        headers: {Authorization: `Token 7a7e7d6292f5ae4f514fe8862d0ef690ebddc878`}
+        headers: {Authorization: `Token ${REACT_APP_KEY}`}
     })
     return instance
 }
@@ -76,32 +76,30 @@ export const changeName = async name => {
     return data
 }   
 
-export const getProof = () => {
+export const getProof = async () => {
     
-    axios
-        .get('https://lambda-treasure-hunt.herokuapp.com/api/bc/last_proof/', {headers: {Authorization: `Token 7a7e7d6292f5ae4f514fe8862d0ef690ebddc878`}})
+  const response =
+  await  axios
+        .get('https://lambda-treasure-hunt.herokuapp.com/api/bc/last_proof/', {headers: {Authorization: `Token ${REACT_APP_KEY}`}})
  
-        .then(res => {
-            console.log("Last_Proof ---------------------->",res.data.proof) 
-            localStorage.setItem('proof',res.data.proof)
-        })
+         localStorage.setItem("proof",response.data.proof)
+         console.log(response.data.proof)
+        //  return proof_of_work(response.data.proof)
 
         
 }
 
 
-export const mine = () => {
-
-    let timer = 1 
-    console.log("START",timer++)
-    let last_proof =  localStorage.getItem('proof')
-     proof_of_work(last_proof)
-
- 
-
-    const body = {"proof": proof_of_work,"player":"mike_harley"}
+export const mine =  () => {
+  
+    
+   
+   const last = localStorage.getItem("proof")
+//    const last_proof = parseInt(last)
+      
+    const body = {"proof":last,"player":"mike_harley"}
     axios
-    .post('https://lambda-treasure-hunt.herokuapp.com/api/bc/mine/',body, {headers: {Authorization: `Token 7a7e7d6292f5ae4f514fe8862d0ef690ebddc878`}
+    .post('https://lambda-treasure-hunt.herokuapp.com/api/bc/mine/',body, {headers: {Authorization: `Token ${REACT_APP_KEY}`}
             })
     .then(res => console.log(res))
     .catch(err => console.log(err))

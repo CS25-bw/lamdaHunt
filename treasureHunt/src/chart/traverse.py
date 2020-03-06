@@ -198,24 +198,26 @@ class Graph:
 
 if __name__ == '__main__':
     graph = Graph()  # Instantiate your graph
+    vertex = 0
     # https://github.com/LambdaSchool/Graphs/blob/master/objectives/breadth-first-search/img/bfs-visit-order.png
-    graph.add_vertex(1)
-    graph.add_vertex(2)
-    graph.add_vertex(3)
-    graph.add_vertex(4)
-    graph.add_vertex(5)
-    graph.add_vertex(6)
-    graph.add_vertex(7)
-    graph.add_edge(5, 3)
-    graph.add_edge(6, 3)
-    graph.add_edge(7, 1)
-    graph.add_edge(4, 7)
-    graph.add_edge(1, 2)
-    graph.add_edge(7, 6)
-    graph.add_edge(2, 4)
-    graph.add_edge(3, 5)
-    graph.add_edge(2, 3)
-    graph.add_edge(4, 6)
+    while vertex in range(0,1000):
+        graph.add_vertex(range)
+    # graph.add_vertex(2)
+    # graph.add_vertex(3)
+    # graph.add_vertex(4)
+    # graph.add_vertex(5)
+    # graph.add_vertex(6)
+    # graph.add_vertex(7)
+    # graph.add_edge(5, 3)
+    # graph.add_edge(6, 3)
+    # graph.add_edge(7, 1)
+    # graph.add_edge(4, 7)
+    # graph.add_edge(1, 2)
+    # graph.add_edge(7, 6)
+    # graph.add_edge(2, 4)
+    # graph.add_edge(3, 5)
+    # graph.add_edge(2, 3)
+    # graph.add_edge(4, 6)
 
     
     #Should print:

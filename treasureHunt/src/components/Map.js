@@ -33,7 +33,7 @@ const Map = ({room}) => {
             // console.log(graphMap)
             keys = Object.keys(graphMap)
             console.log("found rooms:", keys.length)
-        }
+        
 
         keys.map(key => {
             x = graphMap[key].self.coordinates.slice(1,3)
@@ -48,14 +48,14 @@ const Map = ({room}) => {
 
         return twoDMap
     }
+    }
+    let count = room.cooldown
+    const timer = interval => {
+        setInterval(() => console.log(count), interval)
+        count--
+    }
 
-    // let count = room.cooldown
-    // const timer = interval => {
-    //     setInterval(() => console.log(count), interval)
-    //     count--
-    // }
-
-// console.log(JSON.parse(localStorage.getItem('graphMap')))
+console.log(JSON.parse(localStorage.getItem('graphMap')))
 
 
     return (
