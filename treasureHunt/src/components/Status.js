@@ -5,7 +5,7 @@ import'./Room.css'
 const Status = ({status}) => {
     return (
         <div className="current_room_container">
-            <h2 className="cr_title">You're in: {status.name}</h2>
+            <h2 className="cr_title">Welcome Player: {status.name}</h2>
             <p className="cr_content">Cool down: {status.cooldown}</p>
             <p className="cr_content">status id: {status.status_id}</p>
             <p className="cr_content">Encumbrance: {status.encumbrance}</p>

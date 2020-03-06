@@ -1,8 +1,8 @@
 require('dotenv').config()
 const axios = require('axios')
 const {proof_of_work} = require('./Proof')
-
-
+const { Chart } = require('../chart/index')
+const datas = require('../mapped_four.json')
 
 
 
@@ -27,7 +27,20 @@ export const init = async () => {
     console.log("init: ------>", data)
     return data
 }
+export const chart = async () => {
+    
+    let charts = await localStorage.getItem('graphMap');
+    console.log("chart:--------->", charts);
+    if(charts === null || charts === undefined){
+      localStorage.setItem("graphMap",JSON.stringify(datas))
+       console.log("LocalStorage Updated")
+       
+    }
+    const { data } = localStorage.getItem("graphMap")
 
+return data
+
+}
 export const move = async (dir, id) => {
     const { data } = await requestWithAuth().post("/move/", {"direction":dir, "next_room_id":id})
     console.log("move: ------>", data)
@@ -77,16 +90,18 @@ export const changeName = async name => {
 }   
 
 export const getProof = async () => {
-    
+    console.log("GETTING PROOF..............")
   const response =
   await  axios
         .get('https://lambda-treasure-hunt.herokuapp.com/api/bc/last_proof/', {headers: {Authorization: `Token ${REACT_APP_KEY}`}})
- 
-         localStorage.setItem("proof",response.data.proof)
-         console.log(response.data.proof)
-        //  return proof_of_work(response.data.proof)
-
+          const proof = {"last_proof":response.data.proof}  
         
+       
+    
+    const request = await axios.post('http://localhost:5000/proof',proof,{headers:{'ACCESS-CONTROL-ALLOW-ORIGIN':'*'}})
+    await localStorage.setItem('last_proof',request.data.last_proof.last_proof)
+   await  console.log("PROOF ----------->",request.data)
+    await mine();    
 }
 
 
@@ -94,10 +109,10 @@ export const mine =  () => {
   
     
    
-   const last = localStorage.getItem("proof")
-//    const last_proof = parseInt(last)
+   const last = localStorage.getItem('last_proof')
+    const last_proof = parseInt(last)
       
-    const body = {"proof":last,"player":"mike_harley"}
+    const body = {"proof":last_proof,"player":"mike_harley"}
     axios
     .post('https://lambda-treasure-hunt.herokuapp.com/api/bc/mine/',body, {headers: {Authorization: `Token ${REACT_APP_KEY}`}
             })

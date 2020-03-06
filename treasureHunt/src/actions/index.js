@@ -1,12 +1,12 @@
 import { createAsyncAction } from 'redux-promise-middleware-actions'
 
-import { init, move, status, take, drop, pray, sell, examine, mine ,changeName,getProof } from '../api'
+import { init, move, status, take, drop, pray, sell, examine, mine ,changeName,getProof ,chart} from '../api'
 
 export const fetchInit = createAsyncAction("FETCH_INIT", init)
 
 export const fetchMove = createAsyncAction("FETCH_MOVE", move)
 export const fetchMine = createAsyncAction("FETCH_MINE",  mine)
-
+export const fetchChart = createAsyncAction("FETCH_CHART", chart)
 export const fetchStatus = createAsyncAction("FETCH_STATUS", status)
 
 export const fetchTake = createAsyncAction("FETCH_TAKE", take)
