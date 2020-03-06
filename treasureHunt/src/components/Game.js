@@ -2,7 +2,6 @@ import React from 'react';
 
 import { fetchInit, fetchStatus } from '../actions'
 import { useSelector, useDispatch} from "react-redux"
-
 import Room from './Room'
 import Status from './Status'
 import Controls from './Controls'
@@ -24,7 +23,7 @@ const Game = () => {
         <button onClick={() => dispatch(fetchStatus())}>Get Status</button>
         <Status status={status}/>
     </div>
-        <Controls status={status} room={currentRoom}/>
+        <Controls status={status} room={currentRoom} take={take}/>
     </>
   );
 }

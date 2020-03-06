@@ -1,10 +1,13 @@
 import React, {useState, useEffect} from 'react'
 
+import { fetchChart } from '../actions'
+import { useSelector, useDispatch} from "react-redux"
 import './Map.css'
 
 const Map = ({room}) => {
     const [current, setCurrent] = useState({})
-
+    const [rooms, setRooms] = useState({})
+     fetchChart();
     useEffect(() => {
         setCurrent(room)
     }, [room])
@@ -32,14 +35,18 @@ const Map = ({room}) => {
             graphMap = JSON.parse(localStorage.getItem('graphMap'))
             // console.log(graphMap)
             keys = Object.keys(graphMap)
-            console.log("found rooms:", keys.length)
-        
+
+             
+        }
 
         keys.map(key => {
             x = graphMap[key].self.coordinates.slice(1,3)
             y = graphMap[key].self.coordinates.slice(4,6)
             const mapID = graphMap[key].self.room_id
+     
             // console.log(key, x, y)
+         
+            
             twoDMap[y][x] = <div 
                                 className={mapID === current.room_id ? "space room current" : danger.includes(mapID) ? "danger space" : mapID === well ? "well space" : "space room" }
                                 key={mapID}>{mapID}
@@ -48,14 +55,14 @@ const Map = ({room}) => {
 
         return twoDMap
     }
-    }
+
     let count = room.cooldown
     const timer = interval => {
         setInterval(() => console.log(count), interval)
         count--
     }
-
-console.log(JSON.parse(localStorage.getItem('graphMap')))
+// timer()
+// console.log(JSON.parse(localStorage.getItem('graphMap')))
 
 
     return (

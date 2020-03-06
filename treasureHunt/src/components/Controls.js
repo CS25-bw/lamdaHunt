@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-
+import * as blockstack from "blockstack"
 import {
 	fetchMove,
 	fetchTake,
 	fetchDrop,
-	fetchPray,
+	// fetchPray,
 	fetchProof,
 	fetchSell,
 	fetchMine,
@@ -15,8 +15,9 @@ import { useDispatch } from 'react-redux';
 import { chart } from '../chart';
 
 import Map from './Map';
-
-const Controls = ({ room, status, props }) => {
+import  CryptoJS from 'crypto-js'
+import { validateProofs } from 'blockstack';
+const Controls = ({ room, statusm, props }) => {
 	const [prevRoom, setPrevRoom] = useState({});
 	const [dirToPrev, setDirToPrev] = useState('');
 	const [coolDown, setCoolDown] = useState(0);
@@ -43,7 +44,6 @@ const Controls = ({ room, status, props }) => {
 				}, coolDown * 1000);
 			}
 		} else {
-			chart();
 			console.log("didn't, predict");
 			setPrevRoom(room);
 			setDirToPrev(dir);
@@ -92,7 +92,7 @@ const Controls = ({ room, status, props }) => {
 	};
 
 	const handlePray = () => {
-		fetchPray();
+		fetchProof();
 	};
 
 	const handleExamine = name => {
@@ -136,13 +136,13 @@ return (
 		</div>
 		<div>
 			<button onClick={() => handleTake(room.items[0])}>Take Treasure</button>
-			<button onClick={() => handleDrop(props, status.inventory[0])}>Drop Treasure</button>
+			{/* <button onClick={() => handleDrop(props, prosstatus.inventory[0])}>Drop Treasure</button> */}
 			<button onClick={() => handlePray()}>Pray</button>
 			<button onClick={() => handleMine()}>Mine</button>
 			<button onClick={() => handleProof()}>Proof</button>
-			<button onClick={() => handleSell(status.inventory[0])}>Sell</button>
+			{/* <button onClick={() => handleSell(status.inventory[0])}>Sell</button> */}
 			<button onClick={() => autoMove()}>Auto Move</button>
-			<button onClick={() => handleExamine(room.title)}>Examine</button>
+			<button onClick={() => handleExamine("well")}>Examine</button>
 			<button onClick={() => handleChangeName('Mike')}>Change Name</button>
 		</div>
 		<>

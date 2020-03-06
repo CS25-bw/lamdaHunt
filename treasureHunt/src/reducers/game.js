@@ -1,4 +1,4 @@
-import { fetchInit, fetchMove, fetchStatus,fetchTake, fetchDrop, fetchPray, fetchSell, fetchMine,fetchExamine, fetchProof, fetchChangeName} from '../actions'
+import { fetchInit, fetchMove, fetchStatus,fetchTake, fetchDrop, fetchPray, fetchSell, fetchMine,fetchExamine, fetchProof, fetchChangeName,fetchChart} from '../actions'
 
 const initialState = {
     inProgress: false,
@@ -13,6 +13,7 @@ const initialState = {
     sell: {},
     examine: {},
     changeName: {},
+    graphMap:{},
     proof: 0,
     hasMined:false
 }
@@ -40,6 +41,27 @@ export const gameReducer = (state = initialState, { type, payload }) => {
                 inProgress: false,
                 isServerError: true,
                 serverError: payload
+            }
+        case fetchChart.pending.toString():
+            return{
+                ...state,
+                inProgess:true,
+            }
+        case fetchChart.fulfilled.toString():
+            return {
+                ...state,
+                inProgess:false,
+                graphMap:JSON.parse(payload),
+                isServerError:false,
+                serverError:{},
+                gameError:payload.errors
+            }
+        case fetchChart.rejected.toString():
+            return {
+                ...state,
+                inProgess:false,
+                isServerError:true,
+                serverError:payload
             }
         // Moving to a room case
         case fetchMove.pending.toString():
