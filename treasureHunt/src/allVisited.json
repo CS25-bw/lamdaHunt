@@ -17,7 +17,7 @@
         }
     },
     "4": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(61,60)",
         "exits": {
             "n": 23,
@@ -26,7 +26,7 @@
         }
     },
     "10": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(60,61)",
         "exits": {
             "n": 19,
@@ -35,7 +35,7 @@
         }
     },
     "13": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(62,60)",
         "exits": {
             "e": 15,
@@ -43,14 +43,14 @@
         }
     },
     "15": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(63,60)",
         "exits": {
             "w": 13
         }
     },
     "19": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(60,62)",
         "exits": {
             "n": 20,
@@ -59,7 +59,7 @@
         }
     },
     "20": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(60,63)",
         "exits": {
             "n": "?",
@@ -69,7 +69,7 @@
         }
     },
     "23": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(61,61)",
         "exits": {
             "s": 4,
@@ -77,7 +77,7 @@
         }
     },
     "26": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(62,61)",
         "exits": {
             "e": 55,
@@ -85,7 +85,7 @@
         }
     },
     "27": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(61,63)",
         "exits": {
             "n": 40,
@@ -95,14 +95,14 @@
         }
     },
     "28": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(61,62)",
         "exits": {
             "n": 27
         }
     },
     "30": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(62,63)",
         "exits": {
             "s": 31,
@@ -111,7 +111,7 @@
         }
     },
     "31": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(62,62)",
         "exits": {
             "n": 30,
@@ -119,7 +119,7 @@
         }
     },
     "32": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(63,63)",
         "exits": {
             "n": 39,
@@ -128,7 +128,7 @@
         }
     },
     "33": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(63,62)",
         "exits": {
             "e": 38,
@@ -136,7 +136,7 @@
         }
     },
     "38": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(64,62)",
         "exits": {
             "s": 59,
@@ -145,7 +145,7 @@
         }
     },
     "39": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(63,64)",
         "exits": {
             "n": 53,
@@ -155,21 +155,21 @@
         }
     },
     "40": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(61,64)",
         "exits": {
             "s": 27
         }
     },
     "41": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(62,64)",
         "exits": {
             "e": 39
         }
     },
     "51": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(64,64)",
         "exits": {
             "n": 69,
@@ -178,7 +178,7 @@
         }
     },
     "53": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(63,65)",
         "exits": {
             "n": 95,
@@ -187,7 +187,7 @@
         }
     },
     "54": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(64,63)",
         "exits": {
             "w": 32
@@ -201,7 +201,7 @@
         }
     },
     "57": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(65,64)",
         "exits": {
             "e": 145,
@@ -209,7 +209,7 @@
         }
     },
     "59": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(64,61)",
         "exits": {
             "n": 38,
@@ -218,7 +218,7 @@
         }
     },
     "66": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(65,62)",
         "exits": {
             "n": 169,
@@ -227,7 +227,7 @@
         }
     },
     "69": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(64,65)",
         "exits": {
             "n": 94,
@@ -236,7 +236,7 @@
         }
     },
     "88": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(62,65)",
         "exits": {
             "e": 53,
@@ -244,14 +244,14 @@
         }
     },
     "92": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(65,61)",
         "exits": {
             "w": 59
         }
     },
     "94": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(64,66)",
         "exits": {
             "n": 152,
@@ -259,7 +259,7 @@
         }
     },
     "95": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(63,66)",
         "exits": {
             "n": 119,
@@ -268,7 +268,7 @@
         }
     },
     "103": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(65,65)",
         "exits": {
             "n": 160,
@@ -276,7 +276,7 @@
         }
     },
     "104": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(64,60)",
         "exits": {
             "n": 59,
@@ -284,7 +284,7 @@
         }
     },
     "107": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(65,60)",
         "exits": {
             "s": 120,
@@ -293,7 +293,7 @@
         }
     },
     "115": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(62,66)",
         "exits": {
             "n": 116,
@@ -301,7 +301,7 @@
         }
     },
     "116": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(62,67)",
         "exits": {
             "n": 132,
@@ -309,7 +309,7 @@
         }
     },
     "119": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(63,67)",
         "exits": {
             "n": 134,
@@ -317,7 +317,7 @@
         }
     },
     "120": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(65,59)",
         "exits": {
             "n": 107,
@@ -325,7 +325,7 @@
         }
     },
     "121": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(66,60)",
         "exits": {
             "n": 128,
@@ -334,7 +334,7 @@
         }
     },
     "122": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(61,65)",
         "exits": {
             "n": 124,
@@ -342,14 +342,14 @@
         }
     },
     "123": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(66,62)",
         "exits": {
             "w": 66
         }
     },
     "124": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(61,66)",
         "exits": {
             "n": 157,
@@ -357,7 +357,7 @@
         }
     },
     "127": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(66,59)",
         "exits": {
             "e": 184,
@@ -365,7 +365,7 @@
         }
     },
     "128": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(66,61)",
         "exits": {
             "s": 121,
@@ -373,14 +373,14 @@
         }
     },
     "132": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(62,68)",
         "exits": {
             "s": 116
         }
     },
     "134": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(63,68)",
         "exits": {
             "n": 147,
@@ -389,7 +389,7 @@
         }
     },
     "143": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(67,60)",
         "exits": {
             "e": 212,
@@ -397,7 +397,7 @@
         }
     },
     "144": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(64,68)",
         "exits": {
             "e": 155,
@@ -405,7 +405,7 @@
         }
     },
     "145": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(66,64)",
         "exits": {
             "n": 174,
@@ -414,7 +414,7 @@
         }
     },
     "147": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(63,69)",
         "exits": {
             "n": 200,
@@ -424,7 +424,7 @@
         }
     },
     "151": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(62,69)",
         "exits": {
             "n": 172,
@@ -433,14 +433,14 @@
         }
     },
     "152": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(64,67)",
         "exits": {
             "s": 94
         }
     },
     "153": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(64,69)",
         "exits": {
             "e": 329,
@@ -448,7 +448,7 @@
         }
     },
     "155": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(65,68)",
         "exits": {
             "s": 187,
@@ -457,7 +457,7 @@
         }
     },
     "157": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(61,67)",
         "exits": {
             "n": 210,
@@ -466,14 +466,14 @@
         }
     },
     "160": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(65,66)",
         "exits": {
             "s": 103
         }
     },
     "169": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(65,63)",
         "exits": {
             "s": 66,
@@ -481,7 +481,7 @@
         }
     },
     "172": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(62,70)",
         "exits": {
             "n": 267,
@@ -489,7 +489,7 @@
         }
     },
     "174": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(66,65)",
         "exits": {
             "n": 192,
@@ -498,7 +498,7 @@
         }
     },
     "182": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(60,67)",
         "exits": {
             "e": 157,
@@ -506,7 +506,7 @@
         }
     },
     "184": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(67,59)",
         "exits": {
             "e": 221,
@@ -514,7 +514,7 @@
         }
     },
     "186": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(66,63)",
         "exits": {
             "e": 205,
@@ -522,14 +522,14 @@
         }
     },
     "187": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(65,67)",
         "exits": {
             "n": 155
         }
     },
     "189": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(67,61)",
         "exits": {
             "e": 255,
@@ -537,7 +537,7 @@
         }
     },
     "192": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(66,66)",
         "exits": {
             "n": 201,
@@ -546,7 +546,7 @@
         }
     },
     "200": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(63,70)",
         "exits": {
             "n": 227,
@@ -555,14 +555,14 @@
         }
     },
     "201": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(66,67)",
         "exits": {
             "s": 192
         }
     },
     "205": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(67,63)",
         "exits": {
             "s": 241,
@@ -571,7 +571,7 @@
         }
     },
     "206": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(64,70)",
         "exits": {
             "n": 288,
@@ -580,7 +580,7 @@
         }
     },
     "207": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(61,69)",
         "exits": {
             "n": 231,
@@ -589,35 +589,35 @@
         }
     },
     "208": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(59,67)",
         "exits": {
             "e": 182
         }
     },
     "210": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(61,68)",
         "exits": {
             "s": 157
         }
     },
     "212": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(68,60)",
         "exits": {
             "w": 143
         }
     },
     "220": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(67,64)",
         "exits": {
             "w": 145
         }
     },
     "221": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(68,59)",
         "exits": {
             "s": 253,
@@ -626,7 +626,7 @@
         }
     },
     "223": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(67,66)",
         "exits": {
             "n": 283,
@@ -634,14 +634,14 @@
         }
     },
     "224": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(67,65)",
         "exits": {
             "w": 174
         }
     },
     "227": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(63,71)",
         "exits": {
             "n": 269,
@@ -649,7 +649,7 @@
         }
     },
     "231": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(61,70)",
         "exits": {
             "s": 207,
@@ -657,7 +657,7 @@
         }
     },
     "240": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(69,59)",
         "exits": {
             "n": 249,
@@ -666,7 +666,7 @@
         }
     },
     "241": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(67,62)",
         "exits": {
             "n": 205,
@@ -674,7 +674,7 @@
         }
     },
     "248": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(60,70)",
         "exits": {
             "n": 296,
@@ -683,7 +683,7 @@
         }
     },
     "249": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(69,60)",
         "exits": {
             "n": 265,
@@ -692,7 +692,7 @@
         }
     },
     "253": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(68,58)",
         "exits": {
             "n": 221,
@@ -700,14 +700,14 @@
         }
     },
     "255": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(68,61)",
         "exits": {
             "w": 189
         }
     },
     "258": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(69,58)",
         "exits": {
             "e": 306,
@@ -715,7 +715,7 @@
         }
     },
     "265": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(69,61)",
         "exits": {
             "n": 279,
@@ -724,14 +724,14 @@
         }
     },
     "266": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(68,62)",
         "exits": {
             "w": 241
         }
     },
     "267": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(62,71)",
         "exits": {
             "n": 285,
@@ -740,7 +740,7 @@
         }
     },
     "269": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(63,72)",
         "exits": {
             "n": 319,
@@ -748,7 +748,7 @@
         }
     },
     "270": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(70,61)",
         "exits": {
             "n": 416,
@@ -757,7 +757,7 @@
         }
     },
     "271": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(61,71)",
         "exits": {
             "n": 337,
@@ -765,14 +765,14 @@
         }
     },
     "279": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(69,62)",
         "exits": {
             "s": 265
         }
     },
     "280": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(59,70)",
         "exits": {
             "n": 325,
@@ -780,14 +780,14 @@
         }
     },
     "282": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(70,60)",
         "exits": {
             "w": 249
         }
     },
     "283": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(67,67)",
         "exits": {
             "n": 331,
@@ -796,7 +796,7 @@
         }
     },
     "285": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(62,72)",
         "exits": {
             "n": 286,
@@ -804,7 +804,7 @@
         }
     },
     "286": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(62,73)",
         "exits": {
             "n": 336,
@@ -813,21 +813,21 @@
         }
     },
     "288": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(64,71)",
         "exits": {
             "s": 206
         }
     },
     "290": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(60,69)",
         "exits": {
             "e": 207
         }
     },
     "291": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(61,73)",
         "exits": {
             "n": 410,
@@ -836,14 +836,14 @@
         }
     },
     "296": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(60,71)",
         "exits": {
             "s": 248
         }
     },
     "306": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(70,58)",
         "exits": {
             "e": 397,
@@ -851,14 +851,14 @@
         }
     },
     "313": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(68,67)",
         "exits": {
             "w": 283
         }
     },
     "316": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(66,68)",
         "exits": {
             "n": 344,
@@ -866,7 +866,7 @@
         }
     },
     "319": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(63,73)",
         "exits": {
             "n": 359,
@@ -875,7 +875,7 @@
         }
     },
     "325": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(59,71)",
         "exits": {
             "n": 353,
@@ -884,14 +884,14 @@
         }
     },
     "329": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(65,69)",
         "exits": {
             "w": 153
         }
     },
     "331": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(67,68)",
         "exits": {
             "s": 283,
@@ -899,21 +899,21 @@
         }
     },
     "336": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(62,74)",
         "exits": {
             "s": 286
         }
     },
     "337": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(61,72)",
         "exits": {
             "s": 271
         }
     },
     "338": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(71,61)",
         "exits": {
             "s": 379,
@@ -921,7 +921,7 @@
         }
     },
     "344": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(66,69)",
         "exits": {
             "n": 392,
@@ -930,7 +930,7 @@
         }
     },
     "345": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(64,73)",
         "exits": {
             "s": 375,
@@ -938,7 +938,7 @@
         }
     },
     "347": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(60,73)",
         "exits": {
             "n": 452,
@@ -947,28 +947,28 @@
         }
     },
     "353": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(59,72)",
         "exits": {
             "s": 325
         }
     },
     "359": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(63,74)",
         "exits": {
             "s": 319
         }
     },
     "374": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(58,71)",
         "exits": {
             "e": 325
         }
     },
     "375": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(64,72)",
         "exits": {
             "n": 345,
@@ -976,7 +976,7 @@
         }
     },
     "379": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(71,60)",
         "exits": {
             "n": 338,
@@ -984,7 +984,7 @@
         }
     },
     "380": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(65,70)",
         "exits": {
             "n": 424,
@@ -992,14 +992,14 @@
         }
     },
     "385": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(65,72)",
         "exits": {
             "w": 375
         }
     },
     "386": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(70,59)",
         "exits": {
             "e": 414,
@@ -1007,14 +1007,14 @@
         }
     },
     "390": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(67,69)",
         "exits": {
             "w": 344
         }
     },
     "392": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(66,70)",
         "exits": {
             "s": 344,
@@ -1022,7 +1022,7 @@
         }
     },
     "395": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(72,60)",
         "exits": {
             "s": 403,
@@ -1031,42 +1031,42 @@
         }
     },
     "397": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(71,58)",
         "exits": {
             "w": 306
         }
     },
     "403": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(72,59)",
         "exits": {
             "n": 395
         }
     },
     "410": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(61,74)",
         "exits": {
             "s": 291
         }
     },
     "414": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(71,59)",
         "exits": {
             "w": 386
         }
     },
     "416": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(70,62)",
         "exits": {
             "s": 270
         }
     },
     "421": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(73,60)",
         "exits": {
             "n": 440,
@@ -1074,7 +1074,7 @@
         }
     },
     "424": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(65,71)",
         "exits": {
             "s": 380,
@@ -1082,7 +1082,7 @@
         }
     },
     "440": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(73,61)",
         "exits": {
             "s": 421,
@@ -1090,14 +1090,14 @@
         }
     },
     "442": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(60,72)",
         "exits": {
             "n": 347
         }
     },
     "446": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(68,68)",
         "exits": {
             "e": 466,
@@ -1105,21 +1105,21 @@
         }
     },
     "452": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(60,74)",
         "exits": {
             "s": 347
         }
     },
     "462": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(67,70)",
         "exits": {
             "w": 392
         }
     },
     "466": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(69,68)",
         "exits": {
             "s": 486,
@@ -1128,14 +1128,14 @@
         }
     },
     "472": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(70,68)",
         "exits": {
             "w": 466
         }
     },
     "473": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(66,71)",
         "exits": {
             "e": 494,
@@ -1143,28 +1143,28 @@
         }
     },
     "476": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(72,61)",
         "exits": {
             "e": 440
         }
     },
     "479": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(68,63)",
         "exits": {
             "w": 205
         }
     },
     "486": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(69,67)",
         "exits": {
             "n": 466
         }
     },
     "494": {
-        "title": "A misty room",
+        "title": "Dirty Room",
         "coordinates": "(67,71)",
         "exits": {
             "w": 473
